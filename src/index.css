@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Epilogue:wght@600&family=Syne&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Inter&family=Sometype+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Space+Grotesk&family=Space+Mono&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.app {
+  background-color: #fff5ea;
+  display: flex;
+}
+.side-bar {
+  font-family: "DM Sans", sans-serif;
+  color: #fff5ea;
+  background-color: #342e37;
+  height: 100vh;
+  width: 244px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+button {
+  color: #fff5ea;
+  border: solid 0.5px #fff5ea;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+nav {
+  border-top: solid 0.5px #fff5ea;
+}
+nav p {
+  margin: 10px;
+  padding: 10px;
+}
+.history {
+  margin: 10px;
+  padding: 10px;
+  height: 100%;
+}
+.history li {
+  list-style: none;
+  padding: 2px;
+  margin: 6px;
+  cursor: pointer;
+}
+.main-content {
+  font-family: "Space Grotesk", sans-serif;
+  color: #342e37;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.bottom-section {
+  margin-bottom: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  max-width: 650px;
+}
+input {
+  font-family: "Space Mono", monospace;
+  font-size: medium;
+  height: 25px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: solid 0.5px #342e37;
+  background-color: #342e37;
+  color: #fff5ea;
+}
+#submit {
+  font-size: small;
+  padding: 7px;
+  border-radius: 5px;
+  max-width: 70px;
+  cursor: pointer;
+  background-color: #342e37;
+  color: #fff5ea;
+}
+.feed {
+  overflow: scroll;
+  scrollbar-width: thin;
+  width: 100%;
+  padding: 0;
+}
+.feed li {
+  display: flex;
+
+  background-color: #342e37;
+  width: 100%;
+  padding: 20px;
+  margin: 20px 15px;
+  color: #fff5ea;
+}
+.feed p {
+  font-size: 14px;
+  text-align: center;
+}
+.feed p.role {
+  min-width: 100px;
+}
